@@ -1,4 +1,4 @@
-<div><h1 align="center">linpkg</h1><p align="center">linpkg is a bulk package installer for major Linux distributions.</p></div>
+<div align="center"> <h1>linpkg</h1> <p>linpkg is a bulk package installer for major Linux distributions.</p> <a href="https://linpkg.vercel.app/"> <img src="https://img.shields.io/badge/View%20Live-Vercel-black?style=for-the-badge&logo=vercel" alt="View Live on Vercel"> </a> </div>
 
 ### Features
 
@@ -8,7 +8,7 @@
 ### Planned Features
 - Additional packages for completeness.
 - Automatic polling on the database to confirm package availability.
-- Icons for packages to improve the UI. 
+- Add more specific packages that offer alternatives to popular solutions. 
 
 ### Developers
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
@@ -19,7 +19,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
     ```
 2. Start the development server
     ```bash
-    npm dev
+    npm run dev
     ```
 ...Or similar based on your package manager of choice.
 
@@ -28,4 +28,4 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - chore: for maintenance, build process changes, tooling, etc.
 - docs: for documentation changes
 - feat: for features
-- fix: for bugfixes/optimizations. 
+- fix: for bugfixes/optimizations.

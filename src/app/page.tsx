@@ -3,13 +3,13 @@ import { AppGridDisplay } from "./components/AppGridDisplay";
 import { getAppCatalogItems, AppCatalogItem } from "./lib/data";
 
 export default async function Home() {
-  
+
   let apps: AppCatalogItem[] = [];
 
   try {
     apps = await getAppCatalogItems();
   } catch (e) {
-    console.error("Failed to get appp catalog data.")
+    console.error("Failed to get app catalog data:", e instanceof Error ? e.message : e);
     return <div className={styles.page}>Error loading applications.</div>
   }
 
