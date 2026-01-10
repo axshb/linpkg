@@ -30,7 +30,7 @@ export async function POST(request: Request) {
 
     // prevents fetching unnecessary data by selecting specific col needed for chosen package manager
     const apps = await sql`
-            SELECT ${sql(packageManager)}
+            SELECT ${sql.unsafe(packageManager)} // unsafe for string -> TemplateStringsArrat error
             FROM packages
             WHERE id = ANY(${appIds})
         `;

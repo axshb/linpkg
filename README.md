@@ -6,8 +6,8 @@
 - Up to date packages due to the nature of Linux install commands.
 
 ### Planned Features
-- Additional packages for completeness.
 - Automatic polling on the database to confirm package availability.
+- Adding window managers and desktop environments to the list.
 
 ### Developers
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
@@ -17,7 +17,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
     npm install
     ```
 2. Start the development server
-    ```bash
+    ```bash.
     npm run dev
     ```
 ...Or similar based on your package manager of choice.
